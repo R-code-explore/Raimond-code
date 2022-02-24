@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+body {
+  margin: 0;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #020024), to(#1d007e));
+  background: linear-gradient(180deg, #020024 20%, #1d007e 100%);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 10px;
+}
+
+.header-title {
+  margin: auto 40px;
+  font-family: "Abril FatFace";
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-menu {
+  position: absolute;
+  right: 20px;
+  top: 45px;
+}
+
+.header-menu a {
+  margin-right: 20px;
+  font-family: 'Poppins', extra-light;
+  text-decoration: none;
+  color: white;
+}
+
+.index-intro {
+  width: 700px;
+}
+
+.index-title {
+  position: relative;
+  top: 50px;
+  left: 70px;
+  padding: 10px;
+  font-family: "Abril FatFace";
+  font-size: 60px;
+  text-decoration: none;
+  color: #D91111;
+  box-shadow: -6px 16px 17px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -6px 16px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px 16px 17px 0px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=style.css.map */

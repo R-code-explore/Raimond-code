@@ -1,0 +1,78 @@
+//sources:
+// cssgradient.io for gradient colors
+// Google Fonts for fonts 
+//shadow generator: https://cssgenerator.org/box-shadow-css-generator.html
+
+//technologies: html, scss, javascript, threejs, php
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+//for basic txt: Poppins Extra-light 200
+//for title and others: Poppins Regular 400
+//First-title: (logo): Abril Regular
+
+body{
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 20%, rgba(29,0,126,1) 100%);
+}
+
+$logo-title: 'Abril FatFace';
+$title-fonts: 'Poppins', Regular;
+
+//header
+header {
+    display: flex;
+    padding: 30px 10px;
+}
+
+.header-title{
+    margin:auto 40px;
+
+    font-family: $logo-title;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-menu{
+    position: absolute;
+    right: 20px;
+    top: 45px;
+}
+.header-menu a{
+    margin-right: 20px;
+
+    //font command
+    font-family: 'Poppins', extra-light;
+    text-decoration:none;
+    color: white;
+}
+
+//end-header
+
+//index
+
+.index-intro{
+    width: 700px;
+}
+.index-title{
+    position:relative;
+    top: 50px;
+    left: 70px;
+
+    padding: 10px;
+
+    font-family: $logo-title;
+    font-size: 60px;
+    text-decoration: none;
+    color: #D91111;
+
+    box-shadow: -6px 16px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 16px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 16px 17px 0px rgba(0,0,0,0.75);
+}
+
+// end index
