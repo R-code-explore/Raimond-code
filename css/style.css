@@ -1,6 +1,7 @@
 /* Font source / Title: Montserrat 800
 others: Montserrat 300 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+/* Icons resources: https://css.gg/ */
 
 html{
 	scroll-behavior: smooth;
