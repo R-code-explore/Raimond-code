@@ -1,25 +1,4 @@
-// drop-down menu
-
-function dropDown() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  } 
-
-  //change language "about txt"
-  initTxt()
+initTxt()
 
 function initTxt(){
     let txtFr = document.getElementById('txtFr')
@@ -46,3 +25,18 @@ function toggleText(){
 
     }
 }
+
+//Side ind-menu
+let sideMenuBtn = document.querySelector('.ind-btn')
+let sideMenu = document.querySelector('.ind-menu')
+let sideMenuClose = document.querySelector('.close-ind-menu')
+
+sideMenuBtn.addEventListener('click', () => {
+    sideMenu.classList.remove('ind-menu-close')
+    sideMenu.classList.add('ind-menu-open')
+})
+
+sideMenuClose.addEventListener('click', () => {
+    sideMenu.classList.remove('ind-menu-open')
+    sideMenu.classList.add('ind-menu-close')
+})

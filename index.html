@@ -12,57 +12,55 @@
     <!--favicon-->
     <link rel="shortcut icon" href="assets/logo-raimond-code.png" type="image/x-icon">
 
+    <!--Icons shorts css-->
+    <link rel="stylesheet" href="node_modules/css.gg/icons/all.css">
 
-    <!--Bootstrap and bootstrap js-->
- 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!--css bootstrap and personal css-->
-    <link rel="stylesheet" href="scss/style.css">
+    <!--Personnal css-->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Raimond-code</title>
 </head>
 <body>
 
-    <header class="header">
-
-        <div class="navbar .nav-menu-phone">
-
-            <a href="index.html"><img src="assets/logo-raimond-code.svg" class="logo" width="30px"></a>
-
-            <div class="drop-nav-btn">
-                <button onclick="dropDown()" class="dropbtn">Menu</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="index.html">Accueil</a>
-                  <a href="contact.html">Contact</a>
-                </div>
-              </div> 
-        
-        </div>
-
-        <div class="navbar .nav-menu-fullscreen">
-
-            <ul class="fullscreen-navbar">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-        </div>
-    
+    <header>
+        <img src="assets/Logo-raimond-code.svg">
+        <p class="logo-name" src="index.html">Raimond-code</p>
     </header>
 
-    <main>
-        <h1 class="index-title">Raimond-code<br>Full stack developer</h1>
+    <!--First part of main-->
+    <div class="main-1">
+        <img src="assets/Front-back-cube.png">
+        <button>
+            <a href="#">Contact</a>
+        </button>
+    </div>
 
-        <div class="about">
-            <button class="btn-about" id="about" onclick="toggleText()">Change language</button>
-            <div class="" id="txtFr">Bonjour, je m’appel Raimond E.C. , j’ai 22 ans et développeur web Full Stack Junior. Je suis depuis mon plus jeune âge, passionné par les nouvelles technologies, au point de me souvenir de mes premières lignes de code m’ayant servi à créer mon premier serveur Minecraft à l’âge de 12 ans, peut être que ça en parle à certain haha. Parfois la curiosité nous pousse à apprendre de belles choses, moi.. elle m’a amené là où je suis aujourd’hui, c'est-à-dire devant mon clavier à vous proposer mes services et mes compétences en développement et peut être, qui sait, au fait que vous soyez mon prochain client :). A bientôt !</div>
-            <div class="" id="txtEn">Hello, my name is Raimond E.C. I'm 22 years old and a Junior Full Stack web developer. I've been passionate about new technologies since I was young, so much so that I remember my first lines of code used to create my first Minecraft server at the age of 12, maybe that tells some people haha. Sometimes curiosity pushes us to learn beautiful things, me... it brought me where I am today, that is to say in front of my keyboard to propose you my services and my skills in development and maybe, who knows, to the fact that you are my next customer :). See you soon !</div>
+    <!--Independ Menu-->
+    <button class="ind-btn"></button>
+    <div class="ind-menu ind-menu-close">
+        <button class="close-ind-menu"><i class="gg-close"></i></button>
+        <div class="btn-list-menu">
+            <a href=""><i class="gg-user-list"></i></a> <!--Contact-->
+            <a href=""><i class="gg-home-screen"></i></a> <!--Works-->
+            <a href=""><i class="gg-ereader"></i></a> <!--Blog-->
+            <a href=""><i class="gg-reorder"></i></a> <!--Faq-->
         </div>
-    </main> 
+    </div>
+    <!--***-->
 
+    <div class="sep-bar"></div>
+
+    <!--Second main part-->
+
+    <div class="about">
+            <button class="btn-about" id="about" onclick="toggleText()">Change language</button>
+            <div class="" id="txtFr"> <p class="about-txt">Bonjour, je m’appel Raimond E.C. , j’ai 22 ans et développeur web Full Stack Junior. Je suis depuis mon plus jeune âge, passionné par les nouvelles technologies, au point de me souvenir de mes premières lignes de code m’ayant servi à créer mon premier serveur Minecraft à l’âge de 12 ans, peut être que ça en parle à certain haha. Parfois la curiosité nous pousse à apprendre de belles choses, moi.. elle m’a amené là où je suis aujourd’hui, c'est-à-dire devant mon clavier à vous proposer mes services et mes compétences en développement et peut être, qui sait, au fait que vous soyez mon prochain client :). A bientôt !</p> </div>
+            <div class="" id="txtEn"> <p class="about-txt">Hello, my name is Raimond E.C. I'm 22 years old and a Junior Full Stack web developer. I've been passionate about new technologies since I was young, so much so that I remember my first lines of code used to create my first Minecraft server at the age of 12, maybe that tells some people haha. Sometimes curiosity pushes us to learn beautiful things, me... it brought me where I am today, that is to say in front of my keyboard to propose you my services and my skills in development and maybe, who knows, to the fact that you are my next customer :). See you soon !</p> </div>
+        </div>
+
+
+    
+<script type="module" src="js/three.js"></script>
 <script src="js/main.js"></script>
 <noscript>Javascript undefined on your browser</noscript>
 </body>
