@@ -40,3 +40,7 @@ sideMenuClose.addEventListener('click', () => {
     sideMenu.classList.remove('ind-menu-open')
     sideMenu.classList.add('ind-menu-close')
 })
+
+//carousel
+
+
