@@ -301,6 +301,11 @@ footer div > ul > li > a{
 	color: white;
 }
 
+footer div > ul > li > a:hover{
+	text-decoration: none;
+	color: skyblue;
+}
+
 footer aside {
 	width: 40%;
 	margin-right: 10%;
@@ -324,4 +329,9 @@ footer aside > ul > li{
 footer aside > ul > li > a{
 	text-decoration: none;
 	color: white;
+}
+
+footer aside > ul > li > a:hover{
+	text-decoration: none;
+	color: skyblue;
 }

@@ -1,0 +1,147 @@
+/* Font source / Title: Montserrat 800
+others: Montserrat 300 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+/* Icons resources: https://css.gg/ */
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	background: #262626;
+	font-family: 'Montserrat';
+	font-weight: 300;
+}
+
+.basic-btn{
+	cursor: pointer;
+}
+
+.form{
+	display: block;
+	width: 320px;
+	padding: 15px;
+	border-radius: 3%;
+	position: relative;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25), -5px -10px 20px rgba(0, 56, 255, 0.16);
+}
+
+.form div{
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+}
+
+.form div > label{
+	font-size: 20px;
+	font-weight: 300;
+	margin: 5px auto;
+	color: white;
+}
+
+.form div > input{
+	width: 95%;
+	margin: 5px;
+	height: 20px;
+	font-size: 18px;
+	font-weight: bolder;
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25), -5px -10px 20px rgba(0, 56, 255, 0.16);
+	border-radius: 3%;
+}
+
+.form div > textarea{
+	width: 95%;
+	margin: 5px;
+	height: 200px;
+	font-size: 18px;
+	font-weight: bolder;
+
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25), -5px -10px 20px rgba(0, 56, 255, 0.16);
+	border-radius: 3%;
+
+	resize: none;
+}
+
+.form button{
+	display: block;
+	font-size: 1.2rem;
+	padding: 15px;
+	margin: 20px auto;
+	border: none;
+
+	background: rgba(255, 255, 255, 0.05);
+	background-blend-mode: lighten;
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25), -5px -10px 20px rgba(0, 56, 255, 0.16), inset 10px 20px 30px rgba(0, 0, 0, 0.42), inset -10px -10px 20px rgba(28, 105, 255, 0.25);
+	border-radius: 44px;
+
+	color: #00FF29;
+}
+
+/* Footer */
+
+footer{
+	position: relative;
+	bottom: 0px;
+	top: 150px;
+
+	display: flex;
+	background: rgba(0, 0, 0, .2);
+}
+
+footer div{
+	width: 40%;
+	margin-left: 10%;
+}
+
+footer div > ul {
+	list-style: none;
+}
+
+footer div > ul > li{
+	margin: 15px auto;
+}
+
+footer div > ul > li > a{
+	text-decoration: none;
+	color: white;
+}
+
+footer div > ul > li > a:hover{
+	text-decoration: none;
+	color: skyblue;
+}
+
+footer aside {
+	width: 40%;
+	margin-right: 10%;
+}
+
+/* Aside */
+
+footer aside{
+	width: 40%;
+	margin-left: 10%;
+}
+
+footer aside > ul {
+	list-style: none;
+}
+
+footer aside > ul > li{
+	margin: 15px auto;
+}
+
+footer aside > ul > li > a{
+	text-decoration: none;
+	color: white;
+}
+
+footer aside > ul > li > a:hover{
+	text-decoration: none;
+	color: skyblue;
+}
