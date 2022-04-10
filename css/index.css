@@ -28,15 +28,17 @@ html {
 }
 
 .form-div label{
+    display: block;
     font-size: 1em;
+    text-align: center;
 }
 .form-div input, .form-div textarea{
     display: block;
-    margin: 10px 0;
+    width: 280px;
+    margin: 10px auto;
 }
 
 .form-div textarea{
-    width: auto;
     height: 200px;
     resize: none;
 }
