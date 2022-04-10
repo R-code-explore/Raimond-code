@@ -1,0 +1,50 @@
+/**Font**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html {
+    font-family: 'Montserrat';
+    font-size:12px;
+}
+
+/**CONTACT FORM**/
+/**CONTACT FORM**/
+
+#contact{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.contact-title{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.form-div{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.form-div label{
+    font-size: 1em;
+}
+.form-div input, .form-div textarea{
+    display: block;
+    margin: 10px 0;
+}
+
+.form-div textarea{
+    width: auto;
+    height: 200px;
+    resize: none;
+}
+
+.send-btn{
+    display: block;
+    margin:0 auto;
+}
+
+/****/
+/****/
