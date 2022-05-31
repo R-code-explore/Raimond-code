@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="Author" content="Eduard R.C.">
+    <meta name="Description" content="Full-stack web developper / développeur web full-stack /  Portfolio Raimon-code / CV-Raimond-code">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="<?=$css_link?>">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo_title">
+            <img class="logo" src="<?=$logo_link?>">
+            <h1 class="title">Raimond-code</h1>
+        </div>
+        <h3 class="sub_title">Développeur web full-stack</h3>
+    </header>
+
+    <!--First_part_main-->
+
+    <section class="main_1">
+        <div class="skills">
+            <h5 class="sub_title">Mes compétences<br><br>Front:</h5>
+            <ul>
+                <li class="para">Css</li>
+                <li class="para">Javascript</li>
+                <li class="para">React</li>
+                <li class="para">JQuery</li>
+                <li class="para">AnimeJs</li>
+            </ul>
+            <h5 class="sub_title">Back:</h5>
+            <ul>
+                <li class="para">Php</li>
+                <li class="para">Sql</li>
+                <li class="para">Symfony</li>
+            </ul>
+            <h5 class="sub_title">Communication / Partage:</h5>
+            <ul>
+                <li class="para">Git</li>
+                <li class="para">Github</li>
+            </ul>
+        </div>
+        <div class="nav_menu">
+            <div>
+                <img src="<?=$about_icone?>">
+                <a href="#about" class="para">À propos</a>
+            </div>
+            <div>
+                <img src="<?=$real_icone?>">
+                <a href="#real" class="para">Réalisations</a>
+            </div>
+            <div>
+                <img src="<?=$contact_icone?>">
+                <a href="#contact" class="para">Contact</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="main_2">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="<?=$site_1image?>" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="<?=$site_2image?>" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="<?=$site_3image?>" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h5 class="sub_title carousel_title">Aperçu de mes réalisations</h5>
+    </section>
+
+    <div class="main_3 main_reveal" id="about">
+        <div class="about_title">
+            <h1 class="title">À propos de moi</h1>
+            <img src="<?=$profil_pic?>">
+        </div>
+        <div class="about_content">
+            <p class="para">
+                Passionné par l'informatique et le développement en général, j'ai taper mes premières lignes de code à l'âge de 13 / 14 ans pour mes jeux ( création de serveurs en java, la plus part du temps ). Bien plus tard en étant passé par quelques secteurs de métiers, j'ai choisis ma voix que j'explore maintenant depuis environ 2 ans.
+            </p>
+            <button class="general_btn about_btn" id="about_more">Lire la suite</button>
+        </div>
+        <div class="complete_about complete_about_close">
+            <p class="para about_fullText">
+                <button class="closeAboutBtn">X</button>
+                Je me suis principalement formé en autodidacte et suivi ensuite un parcours en e-learning afin de valider mes compétences officiellement.
+                <br><br>
+                Plusieurs missions effectuées en tant qu'indépendant pour particuliers et professionnels.
+                <br>
+                Ces différentes expériences m'ont permis de travailler à en renforcer mes compétences en:
+                <br>
+                - Traitement et gestion du back-end ( PHP, SQL et différents frameworks les accompagnant )
+                <br>
+                - Expérience et interface utilisateur sur les sites et apps web ( SASS, Javascript, HTML / CSS et différents frameworks qui les accompagnent )
+                <br>
+                - Traitement et gestion de système de paiement en ligne.
+            </p>
+        </div>
+    </div>
+
+    <div class="real_box main_reveal">
+        <h1 class="title" id="real">Mes réalisations</h1>
+        <div class="real_content">
+
+            <div class="real_parts">
+                <img src="<?=$site_1image?>">
+                <a class="para" href="https://cfenetres.fr" target="_blank">Cfenetres.fr</a>
+            </div>
+
+            <div class="real_parts">
+                <img src="<?=$site_2image?>">
+                <a class="para" href="https://hypnoconect.com/" target="_blank">Hypnoconect.com</a>
+            </div>
+
+            <div class="real_parts">
+                <img src="<?=$site_3image?>">
+                <a class="para" href="https://iassociation.netlify.app/" target="_blank">iAssociation</a>
+            </div>
+
+            <div class="real_parts">
+                <img src="<?=$site_4image?>">
+                <a class="para" href="https://dice-c.netlify.app/" target="_blank">Dice-roll-Game</a>
+            </div>
+        
+        </div>
+    </div>
