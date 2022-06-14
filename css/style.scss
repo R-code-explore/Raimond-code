@@ -3,6 +3,10 @@
 //Texte weight: Light 300
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 $title_weight: 600;
 $text_weight: 300;
 body{
@@ -44,9 +48,16 @@ header{
 }
 .logo{
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
+@media (max-width: 650px){
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+}
+
 .logo_title h1{
     display: block;
     width: 100%;
@@ -316,6 +327,25 @@ header h3{
     margin-top: 20px;
     width: 100%;
     overflow-x: auto;
+}
+
+.portfolio_link{
+    display: block;
+    background: #0F4C59;
+    color: #D9AFA0;
+    text-align: center;
+    margin: 20px auto;
+    transition: .3s ease-in-out;
+}
+.portfolio_link:hover{
+    color: white;
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+#textRealParts{
+    color: #0F4C59;
+    font-weight: $title_weight;
 }
 
 .real_parts{

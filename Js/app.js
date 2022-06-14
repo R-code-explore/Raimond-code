@@ -1,4 +1,18 @@
+//To the top BTN
 
+jQuery(function(){
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200 ) {
+                $('#scrollUp').css('right','30px');
+            } else { 
+                $('#scrollUp').removeAttr( 'style' );
+            }
+        });
+    });
+});
+
+////
 
 //On scroll content display -- About section
 

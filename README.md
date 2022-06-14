@@ -1,4 +1,4 @@
-# Raimond-code
+# Raimond-code.com
 
 - Link: https://raimond-code.com/
 
@@ -6,7 +6,7 @@ Site web personnel, utilisation portfolio et CV.
 
 # Technologies utilisées
 
-- Html, css, javascript
+- Html, css, javascript, JQuery
 
 - Frameworks: Bootstrap.
 

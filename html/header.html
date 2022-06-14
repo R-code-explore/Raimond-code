@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="Author" content="Eduard R.C.">
+    <meta name="Description" content="Full-stack web developper / développeur web full-stack /  Portfolio Raimond-code / CV-Raimond-code">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!--JQuery call-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="<?=$css_link?>">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raimond-code</title>
+</head>
+<body>
+    <a href="#header" id="scrollUp"><img src="./assets/to_top.png"></a>
+    <header id="header">
+        <div class="logo_title">
+            <img class="logo" src="<?=$logo_link?>">
+            <h1 class="title"><?=$page_title?></h1>
+        </div>
+        <h3 class="sub_title"><?=$page_subTitle?></h3>
+    </header>
+
+    <style>
+        #scrollUp {
+            position: fixed;
+            bottom : 30px;
+            right: -100px;
+            opacity: 1;
+            z-index: 100;
+
+            -webkit-box-shadow: inset -10px 16px 32px -18px #000000; 
+            box-shadow: inset -10px 16px 32px -18px #000000;
+
+            -webkit-box-shadow: -10px 16px 32px -18px #000000; 
+            box-shadow: -10px 16px 32px -18px #000000;
+            animation: 0.3s ease-in-out;
+        }
+
+        #scrollUp img{
+            width: 40px;
+            rotate: -90deg;
+        }
+    </style>

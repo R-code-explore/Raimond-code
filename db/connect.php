@@ -3,7 +3,7 @@
 define("DBHOST", "localhost");
 define("DBUSER", "root");
 define("DBPASS", "root");
-define("DBNAME", "db_name");
+define("DBNAME", "raimond_code");
 
 $dsn = "mysql:dbname=".DBNAME.";host=".DBHOST;
 
