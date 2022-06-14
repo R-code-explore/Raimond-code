@@ -4,7 +4,7 @@
 
 Site web personnel, utilisation portfolio et CV.
 
-# Technologies utilisées
+# Technos utilisées
 
 - Html, css, javascript, JQuery
 
