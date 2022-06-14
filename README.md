@@ -10,7 +10,7 @@ Site web personnel, utilisation portfolio et CV.
 
 - Frameworks: Bootstrap.
 
-- Api: Intersection Observer Api pour Javascript. Lien ici:  https://developer.mozilla.org/fr/docs/Web/API/Intersection_Observer_API
+- Api: Intersection Observer Api pour JS. Lien ici:  https://developer.mozilla.org/fr/docs/Web/API/Intersection_Observer_API
 
 # Fonts utilisées:
 
